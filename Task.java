@@ -25,7 +25,6 @@ public class Task {
             System.out.println("Your entered wrong data.");
         }
         scan.close();
-      
     }
   
     public static void printBonusDatesBetween(int fromYear, int toYear){
@@ -37,7 +36,7 @@ public class Task {
             //converting years to string
             String year= Integer.toString(x);
 
-            //adding only possible date
+            //formatting only one possible date
             String newDate = year+ "-" + year.charAt(3) + year.charAt(2) + "-" + year.charAt(1) + year.charAt(0);
 
             //checking if date is valid
