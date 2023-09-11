@@ -13,10 +13,10 @@ public class Task {
         System.out.println("Enter last year");
         String input2 = scan.nextLine();
         
+        //putting given years in to right argumets position
         int y1 = Integer.parseInt(input1);
         int y2 = Integer.parseInt(input2);
-
-        //as years could be given in acc or dec way, or could be equal different operations needed.
+        
         if (y1<=y2){
              printBonusDatesBetween(y1, y2);
         }else if (y1>y2){
